@@ -1,0 +1,10 @@
+//importando o modulo chamado express para dentro da váriável express. São as funcionalidades  do express
+// A variável express irá receber todas as funcionalidades do express
+const express = require ('express');
+//const cria a váriável
+//Criando a váriável app para armazenar a aplicação. Instanciando
+const app = express();
+//Esta mandando a aplicação ler a porta 3333
+app.listen(8080);
+
+
